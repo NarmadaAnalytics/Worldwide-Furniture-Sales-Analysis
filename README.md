@@ -80,5 +80,5 @@ This project demonstrates how Microsoft Excel can be used to transform raw trans
 
 ## Dashboard Preview
 
-![Dashboard](Dashboard.png.png)
+![Dashboard](dashboard.png.png)
 
