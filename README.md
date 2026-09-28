@@ -99,7 +99,7 @@ The dashboard presents the main business KPIs and supporting visuals, including:
 
 ## Dashboard Preview
 
-![Worldwide Furniture Sales Dashboard](Dashboard.png)
+![Worldwide Furniture Sales Dashboard](Dashboard.png.png)
 
 ## Skills Demonstrated
 
