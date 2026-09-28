@@ -1,84 +1,112 @@
 # Worldwide Furniture Sales Analysis
 
+An Excel-based data analytics project focused on analyzing worldwide furniture sales performance across regions, customers, product categories, and profitability.
+
 ## Project Overview
 
-This project analyzes Worldwide Furniture sales data using Microsoft Excel.
+The goal of this project was to transform raw sales data into a structured Excel analysis that makes it easier to understand business performance, identify trends, and highlight areas that require attention.
 
-The objective is to evaluate sales performance, profitability, customer contribution, product performance, and regional trends through an interactive Excel dashboard.
+The project includes detailed source data, PivotTable-based analysis, slicers, and an interactive Excel dashboard.
 
 ## Business Questions
 
-This analysis focuses on the following questions:
-
-1. What are the total sales, cost, and profit?
-2. Which regions generate the highest sales?
-3. Which countries contribute the most revenue?
-4. Which product categories perform best?
-5. Which customers and products contribute the most sales?
-6. How does sales performance vary over time?
+- How is overall sales performance changing over time?
+- Which regions contribute the most to total sales?
+- Which product categories generate the highest revenue?
+- Who are the highest-value customers?
+- How profitable is the business overall?
+- Which areas should receive more business attention?
 
 ## Dataset
 
-The dataset contains Worldwide Furniture sales transactions covering the period from 2017 to 2020.
-
-Key fields include:
+The dataset contains **7,475 sales records** with fields including:
 
 - Order Date
 - Shipping Date
-- Region
-- Country
-- Category
-- Product Name
 - Customer Name
+- City
+- Country
+- State
+- Region
+- Segment
+- Ship Mode
+- Category
+- Sub-Category
+- Product Name
 - Sales
 - Cost
 - Profit
-- Invoice details
+- Quantity
+- Aging / Escalation Bucket
+
+## Analysis Performed
+
+The analysis was completed in Microsoft Excel using PivotTables, formulas, charts, and slicers.
+
+Key areas analyzed include:
+
+- Total sales and profitability
+- Regional sales performance
+- Product category performance
+- Customer contribution
+- Sales trends over time
+- Segment-level performance
+- Aging / escalation bucket analysis
+
+## Dashboard Highlights
+
+The dashboard presents the main business KPIs and supporting visuals, including:
+
+- **Total Sales:** $631.8M
+- **Total Profit:** $157.9M
+- **Profit Margin:** 25.0%
+- **Quantity Sold:** 28,038
+- Sales trend analysis
+- Sales by region
+- Sales by category
+- Top customers by sales
+
+## Key Insights
+
+- The **Central region contributed approximately 74.4% of total sales**, making it the strongest-performing region.
+- **Office Supplies represented approximately 77.7% of total sales**, significantly ahead of Furniture and Technology.
+- The highest-value customer, **Tricia Bustamante**, contributed approximately **48.3% of total sales**, showing a high level of customer concentration.
+- Overall profit margin was approximately **25%**, indicating strong profitability across the dataset.
+
+## Recommendations
+
+- Monitor customer concentration and reduce dependency on a small number of high-value customers.
+- Investigate opportunities to increase sales contribution from the North and South regions.
+- Explore growth opportunities in Furniture and Technology to create a more balanced category mix.
+- Continue tracking profitability alongside revenue to ensure sales growth remains financially healthy.
+- Use the dashboard regularly to monitor shifts in regional, category, and customer performance.
 
 ## Tools Used
 
 - Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers
+- PivotTables
 - Excel Formulas
-- Interactive Dashboard
+- Charts
+- Slicers
+- Data Analysis
+- Dashboard Design
+- Data Visualization
 
-## Dashboard
+## Project Files
 
-The Excel dashboard provides an interactive view of key business metrics and allows users to filter the analysis by different dimensions.
-
-### Key Metrics
-
-- Total Sales: 631.79M
-- Total Cost: 473.84M
-- Total Profit: 157.95M
-- Total Invoices: 7,476
-
-### Dashboard Analysis
-
-The dashboard includes analysis of:
-
-- Sales by Region
-- Sales by Country
-- Product Performance
-- Customer Performance
-- Category Performance
-- Sales Trends by Year and Month
-
-## Key Insights
-
-- Sales performance varies significantly across regions and countries.
-- Certain product categories contribute a larger share of overall revenue.
-- Customer-level analysis helps identify high-value customers.
-- Profitability can be evaluated alongside sales to understand true business performance.
-- Time-based analysis helps identify changes in sales performance across different periods.
-
-## Project Objective
-
-This project demonstrates how Microsoft Excel can be used to transform raw transactional data into meaningful business insights using pivot tables, slicers, formulas, and an interactive dashboard.
+- `WW FURNITURE Dashboard.xlsx` — Excel workbook containing the source data, PivotTables, and dashboard
+- `Dashboard.png` — dashboard preview image
 
 ## Dashboard Preview
 
-![Dashboard](dashboard.png.png)
+![Worldwide Furniture Sales Dashboard](Dashboard.png)
+
+## Skills Demonstrated
+
+**Excel · PivotTables · Data Analysis · KPI Reporting · Data Visualization · Dashboard Development · Business Analysis · Customer Analysis · Sales Analysis**
+
+## Project Goal
+
+The objective of this project was to turn detailed sales data into a clear and interactive Excel reporting solution that helps users quickly understand sales performance, profitability, customer concentration, and regional trends.
+
 
